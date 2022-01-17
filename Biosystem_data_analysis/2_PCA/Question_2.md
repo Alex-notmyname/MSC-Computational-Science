@@ -17,3 +17,17 @@ I have no idea :(
 ### Q6: How many PCs would you choose?
 
 3, because with 3 PCs we have the smallest PRESS value
+
+### Summary
+
+1. PCA is a nice way to explore strange behaviours in a data set (eg. outliers, clusters)
+
+2. We have to combine score plots, loading plots, residual plots as well as data plots to find out the strange phenomena.
+
+3. Before PCA, it is always neccessary to preprocess the data: mean-centering  (substracting mean value of each variable column), and scaling (devide by std) if needed.
+
+4. Use SVD to compute scores and loadings (T=US, P=V)
+
+5. Use cross-validation to choose the best number of PCs (built-in lirbrary in R)
+
+6. To test if new data fit the original PCA model or not, use original loadings (P) to calculate new scores and residuals.
