@@ -1,0 +1,1 @@
+http://www.cs.illinois.edu/~heath/scicomp/notes/

@@ -1,0 +1,23 @@
+1) install Java
+https://www.java.com/en/download/win10.jsp
+2) install Glotaran
+http://glotaran.org/downloads.html
+3) copy and start Rserve, see
+http://glotaran.org/wiki.html
+
+install package RServe (e.g. from RStudio)
+copy 
+Rserve_d.exe 
+and 
+Rserve.exe
+from
+C:\Users\staff\Documents\R\win-library\3.5\Rserve\libs\i386
+to
+C:\Program Files\R\R-3.5.2\bin\i386
+
+(NB can be different version of R)
+
+Run Rserve from C:\Program Files\R\R-3.5.2\bin\i386
+Start Glotaran
+
+
